@@ -65,7 +65,7 @@ Di bagian ini, mahasiswa diharapkan untuk menyajikan dan menginterpretasikan has
   - *Sematkan gambar plot dari folder /results...*
     ![alt text](https://github.com/triadanyana-lgtm/staprob-project/blob/main/results/histogram_Pendapatan_Tahunan_Miliar_IDR.png)
   - *Interpretasi:* Jelaskan wawasan apa yang Anda dapatkan dari bentuk distribusi data.
-
+    Berdasarkan histogram Pendapatan_Tahunan_Miliar_IDR, dapat dilihat bahwa data tersebar cukup luas dari nilai rendah hingga tinggi, dengan sebagian besar pendapatan berada di kisaran menengah. Garis putus-putus merah yang menunjukkan nilai mean sekitar 31,88 miliar rupiah berada di tengah distribusi, yang menandakan bahwa rata-rata pendapatan cukup mewakili pusat data. Namun, masih terlihat adanya nilai pendapatan yang relatif rendah dan cukup tinggi, sehingga distribusi data tidak sepenuhnya terkonsentrasi pada satu titik. Bentuk distribusi ini menunjukkan bahwa dalam dataset terdapat perbedaan skala pendapatan antar startup, di mana beberapa startup memiliki pendapatan jauh lebih tinggi dibandingkan yang lain, sementara sebagian besar berada di sekitar nilai rata-rata.
 ### 5.2. Uji Normalitas
 - **Hasil Uji Shapiro-Wilk:**
   - *Nilai p-value...*
