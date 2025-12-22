@@ -81,11 +81,14 @@ Di bagian ini, mahasiswa diharapkan untuk menyajikan dan menginterpretasikan has
 
 ### 5.3. Analisis Korelasi
 - **Nilai Koefisien Korelasi:**
-  - *Nilai r...*
+  - *Nilai r...* nilai r = 0.996
   - *Interpretasi:* Seberapa kuat dan apa arah hubungan antara dua variabel yang Anda uji? (misalnya, korelasi positif kuat, negatif lemah, atau tidak ada korelasi).
+  - Berdasarkan hasil uji korelasi yang dilakukan, diperoleh bahwa terdapat hubungan linear positif yang kuat dan signifikan secara statistik antara Pendapatan Tahunan (Miliar IDR) dan Biaya Akuisisi Pelanggan (Juta IDR) dengan nilai p-value < 0,05 dan korelasi 0,996. Hal ini menunjukkan bahwa peningkatan pendapatan tahunan perusahaan cenderung diikuti oleh peningkatan biaya yang dikeluarkan untuk mengakuisisi pelanggan.
 - **Visualisasi (Scatter Plot):**
   - *Sematkan gambar plot dari folder /results...*
+    ![alt text](https://github.com/triadanyana-lgtm/staprob-project/blob/main/results/scatterplot_Pendapatan_Tahunan_Miliar_IDR_vs_Biaya_Akuisisi_Pelanggan_Juta_IDR.png)
   - *Interpretasi:* Apakah pola pada scatter plot mendukung hasil koefisien korelasi?
+  - Ya, pola pada scatter plot mendukung hasil koefisien korelasi. Titik-titik data membentuk pola naik dari kiri ke kanan dan mengikuti garis tren linear yang ditunjukkan oleh garis merah, sehingga menunjukkan adanya hubungan positif antara Pendapatan_Tahunan_Miliar_IDR dan Biaya_Akuisisi_Pelanggan_Juta_IDR. Artinya, semakin tinggi pendapatan tahunan startup, cenderung semakin tinggi pula biaya akuisisi pelanggan yang dikeluarkan. Pola yang relatif rapat di sekitar garis tren juga mengindikasikan bahwa hubungan antar kedua variabel tersebut cukup kuat dan konsisten, sehingga hasil visual ini sejalan dengan nilai koefisien korelasi yang menunjukkan hubungan positif.
 
 ### 5.4. Analisis Regresi
 - **Model Regresi:**
