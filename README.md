@@ -55,6 +55,8 @@ Di bagian ini, mahasiswa diharapkan untuk menyajikan dan menginterpretasikan has
     Berdasarkan hasil statistik deskriptif pada kolom Pendapatan_Tahunan_Miliar_IDR, diperoleh nilai mean sebesar 31,88 miliar rupiah, yang menunjukkan bahwa rata rata pendapatan tahunan startup SaaS dalam dataset berada pada kisaran tersebut. Nilai median sebesar 31,30 miliar rupiah mengindikasikan bahwa setengah dari startup memiliki pendapatan di bawah nilai tersebut dan setengah lainnya di atasnya, serta menunjukkan bahwa sebaran data relatif cukup seimbang karena nilainya mendekati mean. Namun, nilai modus sebesar 1,87 miliar rupiah menunjukkan bahwa pendapatan yang paling sering muncul justru berada pada tingkat yang relatif rendah, sehingga dapat disimpulkan bahwa meskipun rata-rata pendapatan startup cukup tinggi, sebagian besar startup dalam dataset masih berada pada kategori pendapatan rendah, sementara beberapa startup dengan pendapatan sangat tinggi berkontribusi terhadap peningkatan nilai rata-rata secara keseluruhan.
 - **Ukuran Sebaran (Standar Deviasi, Range, Kuartil):**
   - *Tabel atau ringkasan...*
+  - Hasil dari ukuran pemusatan yang saya lakukan pada kolom Pendapatan_Tahunan_Miliar_IDR :
+  - Standar Deviasi : 
   - *Interpretasi:* Jelaskan seberapa menyebar data Anda berdasarkan nilai-nilai ini.
 - **Visualisasi (Histogram/Boxplot):**
   - *Sematkan gambar plot dari folder /results...*
