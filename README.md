@@ -48,24 +48,24 @@ Di bagian ini, mahasiswa diharapkan untuk menyajikan dan menginterpretasikan has
 - **Ukuran Pemusatan (Mean, Median, Modus):**
   - *Tabel atau ringkasan...*
   - Hasil dari ukuran pemusatan yang saya lakukan pada kolom Pendapatan_Tahunan_Miliar_IDR :
-    Mean : 31.8831846153846
-    Median : 31.303
-    Modus : 1.87
+    1. Mean : 31.8831846153846
+    2. Median : 31.303
+    3. Modus : 1.87
   - *Interpretasi:* Jelaskan apa arti dari nilai-nilai tersebut terkait dengan data Anda.
-    Berdasarkan hasil statistik deskriptif pada kolom Pendapatan_Tahunan_Miliar_IDR, diperoleh nilai mean sebesar 31,88 miliar rupiah, yang menunjukkan bahwa rata rata pendapatan tahunan startup SaaS dalam dataset berada pada kisaran tersebut. Nilai median sebesar 31,30 miliar rupiah mengindikasikan bahwa setengah dari startup memiliki pendapatan di bawah nilai tersebut dan setengah lainnya di atasnya, serta menunjukkan bahwa sebaran data relatif cukup seimbang karena nilainya mendekati mean. Namun, nilai modus sebesar 1,87 miliar rupiah menunjukkan bahwa pendapatan yang paling sering muncul justru berada pada tingkat yang relatif rendah, sehingga dapat disimpulkan bahwa meskipun rata-rata pendapatan startup cukup tinggi, sebagian besar startup dalam dataset masih berada pada kategori pendapatan rendah, sementara beberapa startup dengan pendapatan sangat tinggi berkontribusi terhadap peningkatan nilai rata-rata secara keseluruhan.
+  - Berdasarkan hasil statistik deskriptif pada kolom Pendapatan_Tahunan_Miliar_IDR, diperoleh nilai mean sebesar 31,88 miliar rupiah, yang menunjukkan bahwa rata rata pendapatan tahunan startup SaaS dalam dataset berada pada kisaran tersebut. Nilai median sebesar 31,30 miliar rupiah mengindikasikan bahwa setengah dari startup memiliki pendapatan di bawah nilai tersebut dan setengah lainnya di atasnya, serta menunjukkan bahwa sebaran data relatif cukup seimbang karena nilainya mendekati mean. Namun, nilai modus sebesar 1,87 miliar rupiah menunjukkan bahwa pendapatan yang paling sering muncul justru berada pada tingkat yang relatif rendah, sehingga dapat disimpulkan bahwa meskipun rata-rata pendapatan startup cukup tinggi, sebagian besar startup dalam dataset masih berada pada kategori pendapatan rendah, sementara beberapa startup dengan pendapatan sangat tinggi berkontribusi terhadap peningkatan nilai rata-rata secara keseluruhan.
 - **Ukuran Sebaran (Standar Deviasi, Range, Kuartil):**
   - *Tabel atau ringkasan...*
   - Hasil dari ukuran pemusatan yang saya lakukan pada kolom Pendapatan_Tahunan_Miliar_IDR :
-    Standar Deviasi : 19.7855620465392
-    Range : 1 - 66.89 = 65.89
-    Kuartil : Min.= 1.00, Q1= 14.31, Median/Q2= 31.30, Mean= 31.88, Q3= 49.04, Max.= 66.89
+    1. Standar Deviasi : 19.7855620465392
+    2. Range : 1 - 66.89 = 65.89
+    3. Kuartil : Min.= 1.00, Q1= 14.31, Median/Q2= 31.30, Mean= 31.88, Q3= 49.04, Max.= 66.89
   - *Interpretasi:* Jelaskan seberapa menyebar data Anda berdasarkan nilai-nilai ini.
-    Pendapatan tahunan pada kolom Pendapatan_Tahunan_Miliar_IDR memiliki sebaran data yang cukup lebar. Hal ini dapat dilihat dari nilai standar deviasi sebesar 19,79 miliar rupiah, yang menunjukkan bahwa data pendapatan tiap startup cukup bervariasi dan tidak terkumpul di sekitar nilai rata-rata saja. Selain itu, range sebesar 65,89 miliar rupiah (dari 1,00 hingga 66,89 miliar rupiah) menandakan adanya perbedaan yang cukup jauh antara startup dengan pendapatan terendah dan tertinggi. Berdasarkan nilai kuartil, sebagian startup memiliki pendapatan di bawah 14,31 miliar rupiah, sementara sebagian lainnya mencapai lebih dari 49,04 miliar rupiah, sehingga dapat disimpulkan bahwa pendapatan tahunan startup SaaS dalam dataset ini menyebar cukup luas dan tidak merata.
+  - Pendapatan tahunan pada kolom Pendapatan_Tahunan_Miliar_IDR memiliki sebaran data yang cukup lebar. Hal ini dapat dilihat dari nilai standar deviasi sebesar 19,79 miliar rupiah, yang menunjukkan bahwa data pendapatan tiap startup cukup bervariasi dan tidak terkumpul di sekitar nilai rata-rata saja. Selain itu, range sebesar 65,89 miliar rupiah (dari 1,00 hingga 66,89 miliar rupiah) menandakan adanya perbedaan yang cukup jauh antara startup dengan pendapatan terendah dan tertinggi. Berdasarkan nilai kuartil, sebagian startup memiliki pendapatan di bawah 14,31 miliar rupiah, sementara sebagian lainnya mencapai lebih dari 49,04 miliar rupiah, sehingga dapat disimpulkan bahwa pendapatan tahunan startup SaaS dalam dataset ini menyebar cukup luas dan tidak merata.
 - **Visualisasi (Histogram/Boxplot):**
   - *Sematkan gambar plot dari folder /results...*
     ![alt text](https://github.com/triadanyana-lgtm/staprob-project/blob/main/results/histogram_Pendapatan_Tahunan_Miliar_IDR.png)
   - *Interpretasi:* Jelaskan wawasan apa yang Anda dapatkan dari bentuk distribusi data.
-    Berdasarkan histogram Pendapatan_Tahunan_Miliar_IDR, dapat dilihat bahwa data tersebar cukup luas dari nilai rendah hingga tinggi, dengan sebagian besar pendapatan berada di kisaran menengah. Garis putus-putus merah yang menunjukkan nilai mean sekitar 31,88 miliar rupiah berada di tengah distribusi, yang menandakan bahwa rata-rata pendapatan cukup mewakili pusat data. Namun, masih terlihat adanya nilai pendapatan yang relatif rendah dan cukup tinggi, sehingga distribusi data tidak sepenuhnya terkonsentrasi pada satu titik. Bentuk distribusi ini menunjukkan bahwa dalam dataset terdapat perbedaan skala pendapatan antar startup, di mana beberapa startup memiliki pendapatan jauh lebih tinggi dibandingkan yang lain, sementara sebagian besar berada di sekitar nilai rata-rata.
+  - Berdasarkan histogram Pendapatan_Tahunan_Miliar_IDR, dapat dilihat bahwa data tersebar cukup luas dari nilai rendah hingga tinggi, dengan sebagian besar pendapatan berada di kisaran menengah. Garis putus-putus merah yang menunjukkan nilai mean sekitar 31,88 miliar rupiah berada di tengah distribusi, yang menandakan bahwa rata-rata pendapatan cukup mewakili pusat data. Namun, masih terlihat adanya nilai pendapatan yang relatif rendah dan cukup tinggi, sehingga distribusi data tidak sepenuhnya terkonsentrasi pada satu titik. Bentuk distribusi ini menunjukkan bahwa dalam dataset terdapat perbedaan skala pendapatan antar startup, di mana beberapa startup memiliki pendapatan jauh lebih tinggi dibandingkan yang lain, sementara sebagian besar berada di sekitar nilai rata-rata.
 ### 5.2. Uji Normalitas
 - **Hasil Uji Shapiro-Wilk:**
   - *Nilai p-value...*
