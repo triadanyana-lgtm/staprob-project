@@ -66,13 +66,18 @@ Di bagian ini, mahasiswa diharapkan untuk menyajikan dan menginterpretasikan has
     ![alt text](https://github.com/triadanyana-lgtm/staprob-project/blob/main/results/histogram_Pendapatan_Tahunan_Miliar_IDR.png)
   - *Interpretasi:* Jelaskan wawasan apa yang Anda dapatkan dari bentuk distribusi data.
   - Berdasarkan histogram Pendapatan_Tahunan_Miliar_IDR, dapat dilihat bahwa data tersebar cukup luas dari nilai rendah hingga tinggi, dengan sebagian besar pendapatan berada di kisaran menengah. Garis putus-putus merah yang menunjukkan nilai mean sekitar 31,88 miliar rupiah berada di tengah distribusi, yang menandakan bahwa rata-rata pendapatan cukup mewakili pusat data. Namun, masih terlihat adanya nilai pendapatan yang relatif rendah dan cukup tinggi, sehingga distribusi data tidak sepenuhnya terkonsentrasi pada satu titik. Bentuk distribusi ini menunjukkan bahwa dalam dataset terdapat perbedaan skala pendapatan antar startup, di mana beberapa startup memiliki pendapatan jauh lebih tinggi dibandingkan yang lain, sementara sebagian besar berada di sekitar nilai rata-rata.
+
 ### 5.2. Uji Normalitas
 - **Hasil Uji Shapiro-Wilk:**
   - *Nilai p-value...*
+    p-value = 1.497e-14
   - *Interpretasi:* Apakah data Anda terdistribusi normal berdasarkan hasil uji? Apa implikasinya?
+  - Berdasarkan hasil uji normalitas Shapiro–Wilk pada variabel Pendapatan_Tahunan_Miliar_IDR, diperoleh nilai p-value sebesar 1,497 × 10⁻¹⁴, yang jauh lebih kecil dari tingkat signifikansi 0,05. Hal ini menunjukkan bahwa data tidak terdistribusi normal, sehingga hipotesis nol yang menyatakan data berdistribusi normal dapat ditolak. Implikasinya, analisis lanjutan yang mengasumsikan normalitas data, seperti uji parametrik tertentu, perlu dilakukan dengan hati-hati atau digantikan dengan metode alternatif, misalnya transformasi data atau penggunaan metode non-parametrik agar hasil analisis lebih valid.
 - **Plot Q-Q:**
   - *Sematkan gambar plot dari folder /results...*
+    ![alt text](https://github.com/triadanyana-lgtm/staprob-project/blob/main/results/qqplot_Pendapatan_Tahunan_Miliar_IDR.png)
   - *Interpretasi:* Apakah titik-titik data mengikuti garis lurus? Apa artinya?
+  - Berdasarkan Q–Q plot Pendapatan_Tahunan_Miliar_IDR, titik-titik data tidak sepenuhnya mengikuti garis lurus, terutama pada bagian awal dan akhir grafik, di mana terlihat penyimpangan yang cukup jelas dari garis diagonal. Hal ini menunjukkan bahwa distribusi data tidak mengikuti distribusi normal, dengan adanya perbedaan pada ekor distribusi (tail) yang menandakan ketidaksimetrisan atau kemungkinan adanya nilai ekstrem. Artinya, asumsi normalitas pada data pendapatan tahunan tidak terpenuhi, sehingga hasil ini memperkuat temuan dari uji Shapiro–Wilk bahwa data tidak berdistribusi normal.
 
 ### 5.3. Analisis Korelasi
 - **Nilai Koefisien Korelasi:**
