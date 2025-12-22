@@ -56,10 +56,14 @@ Di bagian ini, mahasiswa diharapkan untuk menyajikan dan menginterpretasikan has
 - **Ukuran Sebaran (Standar Deviasi, Range, Kuartil):**
   - *Tabel atau ringkasan...*
   - Hasil dari ukuran pemusatan yang saya lakukan pada kolom Pendapatan_Tahunan_Miliar_IDR :
-  - Standar Deviasi : 
+    Standar Deviasi : 19.7855620465392
+    Range : 1 - 66.89 = 65.89
+    Kuartil : Min.= 1.00, Q1= 14.31, Median/Q2= 31.30, Mean= 31.88, Q3= 49.04, Max.= 66.89
   - *Interpretasi:* Jelaskan seberapa menyebar data Anda berdasarkan nilai-nilai ini.
+    Pendapatan tahunan pada kolom Pendapatan_Tahunan_Miliar_IDR memiliki sebaran data yang cukup lebar. Hal ini dapat dilihat dari nilai standar deviasi sebesar 19,79 miliar rupiah, yang menunjukkan bahwa data pendapatan tiap startup cukup bervariasi dan tidak terkumpul di sekitar nilai rata-rata saja. Selain itu, range sebesar 65,89 miliar rupiah (dari 1,00 hingga 66,89 miliar rupiah) menandakan adanya perbedaan yang cukup jauh antara startup dengan pendapatan terendah dan tertinggi. Berdasarkan nilai kuartil, sebagian startup memiliki pendapatan di bawah 14,31 miliar rupiah, sementara sebagian lainnya mencapai lebih dari 49,04 miliar rupiah, sehingga dapat disimpulkan bahwa pendapatan tahunan startup SaaS dalam dataset ini menyebar cukup luas dan tidak merata.
 - **Visualisasi (Histogram/Boxplot):**
   - *Sematkan gambar plot dari folder /results...*
+    
   - *Interpretasi:* Jelaskan wawasan apa yang Anda dapatkan dari bentuk distribusi data.
 
 ### 5.2. Uji Normalitas
