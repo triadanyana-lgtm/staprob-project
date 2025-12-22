@@ -13,8 +13,8 @@
 
 Pada bagian ini, jelaskan secara singkat dataset yang Anda gunakan. Apa saja variabel di dalamnya? Apa tujuan dari analisis yang Anda lakukan?
 
-*Contoh:*
-> Dataset yang digunakan adalah data `...` yang berisi informasi tentang `...`. Variabel kunci dalam dataset ini meliputi `variabel_A`, `variabel_B`, dan `variabel_C`. Tujuan dari proyek ini adalah untuk memahami karakteristik data melalui statistik deskriptif, menguji hubungan antara `variabel_A` dan `variabel_B` melalui analisis korelasi, serta memprediksi `variabel_C` menggunakan `variabel_A` sebagai prediktor melalui analisis regresi.
+> Dataset yang digunakan adalah data data_startup_saas.csv yang berisi informasi tentang startup SaaS dan digunakan untuk analisis bisnis, seperti membandingkan pendapatan tahunan, biaya langganan, nilai pelanggan, serta tingkat churn berdasarkan kategori layanan. Variabel kunci dalam dataset ini meliputi Pendapatan_Tahunan_Miliar_IDR, Biaya_Langganan_Juta_IDR.Jadi disini saya hanya menggunakan 2 varaiable untuk melakukan proyek ini.
+Tujuan dari proyek ini adalah untuk memahami karakteristik data melalui statistik deskriptif, menguji hubungan antara Pendapatan_Tahunan_Miliar_IDR dan Biaya_Langganan_Juta_IDR melalui analisis korelasi, serta memprediksi Biaya_Langganan_Juta_IDR sebagai variabel target menggunakan Pendapatan_Tahunan_Miliar_IDR sebagai variabel prediktor melalui analisis regresi.
 
 ---
 
@@ -47,7 +47,12 @@ Di bagian ini, mahasiswa diharapkan untuk menyajikan dan menginterpretasikan has
 ### 5.1. Statistik Deskriptif
 - **Ukuran Pemusatan (Mean, Median, Modus):**
   - *Tabel atau ringkasan...*
+    Hasil dari ukuran pemusatan yang saya lakukan pada kolom Pendapatan_Tahunan_Miliar_IDR :
+    Mean : 31.8831846153846
+    Median : 31.303
+    Modus : 1.87
   - *Interpretasi:* Jelaskan apa arti dari nilai-nilai tersebut terkait dengan data Anda.
+    Berdasarkan hasil statistik deskriptif pada kolom Pendapatan_Tahunan_Miliar_IDR, diperoleh nilai mean sebesar 31,88 miliar rupiah, yang menunjukkan bahwa rata rata pendapatan tahunan startup SaaS dalam dataset berada pada kisaran tersebut. Nilai median sebesar 31,30 miliar rupiah mengindikasikan bahwa setengah dari startup memiliki pendapatan di bawah nilai tersebut dan setengah lainnya di atasnya, serta menunjukkan bahwa sebaran data relatif cukup seimbang karena nilainya mendekati mean. Namun, nilai modus sebesar 1,87 miliar rupiah menunjukkan bahwa pendapatan yang paling sering muncul justru berada pada tingkat yang relatif rendah, sehingga dapat disimpulkan bahwa meskipun rata-rata pendapatan startup cukup tinggi, sebagian besar startup dalam dataset masih berada pada kategori pendapatan rendah, sementara beberapa startup dengan pendapatan sangat tinggi berkontribusi terhadap peningkatan nilai rata-rata secara keseluruhan.
 - **Ukuran Sebaran (Standar Deviasi, Range, Kuartil):**
   - *Tabel atau ringkasan...*
   - *Interpretasi:* Jelaskan seberapa menyebar data Anda berdasarkan nilai-nilai ini.
