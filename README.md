@@ -47,7 +47,7 @@ Di bagian ini, mahasiswa diharapkan untuk menyajikan dan menginterpretasikan has
 ### 5.1. Statistik Deskriptif
 - **Ukuran Pemusatan (Mean, Median, Modus):**
   - *Tabel atau ringkasan...*
-    Hasil dari ukuran pemusatan yang saya lakukan pada kolom Pendapatan_Tahunan_Miliar_IDR :
+  - Hasil dari ukuran pemusatan yang saya lakukan pada kolom Pendapatan_Tahunan_Miliar_IDR :
     Mean : 31.8831846153846
     Median : 31.303
     Modus : 1.87
