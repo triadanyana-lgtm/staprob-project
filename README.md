@@ -48,16 +48,16 @@ Di bagian ini, mahasiswa diharapkan untuk menyajikan dan menginterpretasikan has
 - **Ukuran Pemusatan (Mean, Median, Modus):**
   - *Tabel atau ringkasan...*
   - Hasil dari ukuran pemusatan yang saya lakukan pada kolom Pendapatan_Tahunan_Miliar_IDR :
-    1. Mean : 31.8831846153846
-    2. Median : 31.303
-    3. Modus : 1.87
+    1. Mean : 31,8831846153846
+    2. Median : 31,303
+    3. Modus : 1,87
   - *Interpretasi:* Jelaskan apa arti dari nilai-nilai tersebut terkait dengan data Anda.
   - Berdasarkan hasil statistik deskriptif pada kolom Pendapatan_Tahunan_Miliar_IDR, diperoleh nilai mean sebesar 31,88 miliar rupiah, yang menunjukkan bahwa rata rata pendapatan tahunan startup SaaS dalam dataset berada pada kisaran tersebut. Nilai median sebesar 31,30 miliar rupiah mengindikasikan bahwa setengah dari startup memiliki pendapatan di bawah nilai tersebut dan setengah lainnya di atasnya, serta menunjukkan bahwa sebaran data relatif cukup seimbang karena nilainya mendekati mean. Namun, nilai modus sebesar 1,87 miliar rupiah menunjukkan bahwa pendapatan yang paling sering muncul justru berada pada tingkat yang relatif rendah, sehingga dapat disimpulkan bahwa meskipun rata-rata pendapatan startup cukup tinggi, sebagian besar startup dalam dataset masih berada pada kategori pendapatan rendah, sementara beberapa startup dengan pendapatan sangat tinggi berkontribusi terhadap peningkatan nilai rata-rata secara keseluruhan.
 - **Ukuran Sebaran (Standar Deviasi, Range, Kuartil):**
   - *Tabel atau ringkasan...*
   - Hasil dari ukuran pemusatan yang saya lakukan pada kolom Pendapatan_Tahunan_Miliar_IDR :
-    1. Standar Deviasi : 19.7855620465392
-    2. Range : 1 - 66.89 = 65.89
+    1. Standar Deviasi : 19,7855620465392
+    2. Range : 1 - 66,89 = 65,89
     3. Kuartil : Min.= 1.00, Q1= 14.31, Median/Q2= 31.30, Mean= 31.88, Q3= 49.04, Max.= 66.89
   - *Interpretasi:* Jelaskan seberapa menyebar data Anda berdasarkan nilai-nilai ini.
   - Pendapatan tahunan pada kolom Pendapatan_Tahunan_Miliar_IDR memiliki sebaran data yang cukup lebar. Hal ini dapat dilihat dari nilai standar deviasi sebesar 19,79 miliar rupiah, yang menunjukkan bahwa data pendapatan tiap startup cukup bervariasi dan tidak terkumpul di sekitar nilai rata-rata saja. Selain itu, range sebesar 65,89 miliar rupiah (dari 1,00 hingga 66,89 miliar rupiah) menandakan adanya perbedaan yang cukup jauh antara startup dengan pendapatan terendah dan tertinggi. Berdasarkan nilai kuartil, sebagian startup memiliki pendapatan di bawah 14,31 miliar rupiah, sementara sebagian lainnya mencapai lebih dari 49,04 miliar rupiah, sehingga dapat disimpulkan bahwa pendapatan tahunan startup SaaS dalam dataset ini menyebar cukup luas dan tidak merata.
@@ -70,7 +70,7 @@ Di bagian ini, mahasiswa diharapkan untuk menyajikan dan menginterpretasikan has
 ### 5.2. Uji Normalitas
 - **Hasil Uji Shapiro-Wilk:**
   - *Nilai p-value...*
-    p-value = 1.497e-14
+    p-value = 1,497e-14
   - *Interpretasi:* Apakah data Anda terdistribusi normal berdasarkan hasil uji? Apa implikasinya?
   - Berdasarkan hasil uji normalitas Shapiro–Wilk pada variabel Pendapatan_Tahunan_Miliar_IDR, diperoleh nilai p-value sebesar 1,497 × 10⁻¹⁴, yang jauh lebih kecil dari tingkat signifikansi 0,05. Hal ini menunjukkan bahwa data tidak terdistribusi normal, sehingga hipotesis nol yang menyatakan data berdistribusi normal dapat ditolak. Implikasinya, analisis lanjutan yang mengasumsikan normalitas data, seperti uji parametrik tertentu, perlu dilakukan dengan hati-hati atau digantikan dengan metode alternatif, misalnya transformasi data atau penggunaan metode non-parametrik agar hasil analisis lebih valid.
 - **Plot Q-Q:**
@@ -81,7 +81,7 @@ Di bagian ini, mahasiswa diharapkan untuk menyajikan dan menginterpretasikan has
 
 ### 5.3. Analisis Korelasi
 - **Nilai Koefisien Korelasi:**
-  - *Nilai r...* nilai r = 0.996
+  - *Nilai r...* nilai r = 0,996
   - *Interpretasi:* Seberapa kuat dan apa arah hubungan antara dua variabel yang Anda uji? (misalnya, korelasi positif kuat, negatif lemah, atau tidak ada korelasi).
   - Berdasarkan hasil uji korelasi yang dilakukan, diperoleh bahwa terdapat hubungan linear positif yang kuat dan signifikan secara statistik antara Pendapatan Tahunan (Miliar IDR) dan Biaya Akuisisi Pelanggan (Juta IDR) dengan nilai p-value < 0,05 dan korelasi 0,996. Hal ini menunjukkan bahwa peningkatan pendapatan tahunan perusahaan cenderung diikuti oleh peningkatan biaya yang dikeluarkan untuk mengakuisisi pelanggan.
 - **Visualisasi (Scatter Plot):**
@@ -93,13 +93,20 @@ Di bagian ini, mahasiswa diharapkan untuk menyajikan dan menginterpretasikan has
 ### 5.4. Analisis Regresi
 - **Model Regresi:**
   - *Persamaan regresi: Y = b0 + b1*X*
+    1. Intercept/b0 = 1,3696
+    2. Slope/b1 = 1,0077*X*
+    3. Y = 1,3696 + 1,0077*X* dengan X = Pendapatan_Tahunan_Miliar_IDR
   - *Interpretasi:* Jelaskan arti dari koefisien intercept (b0) dan slope (b1) dalam konteks data Anda.
+  - Berdasarkan hasil analisis regresi linear yang diperoleh, dapat disimpulkan bahwa terdapat hubungan positif antara pendapatan tahunan dan variabel dependen yang diteliti. Nilai intercept sebesar 1,3696 menunjukkan bahwa ketika pendapatan tahunan bernilai nol, variabel dependen masih memiliki nilai awal sebesar 1,3696. Sementara itu, koefisien regresi pendapatan tahunan sebesar 1,0077 mengindikasikan bahwa setiap kenaikan pendapatan tahunan sebesar 1 miliar rupiah akan diikuti oleh peningkatan nilai variabel dependen rata-rata sebesar 1,0077. Koefisien ini bernilai positif dan signifikan, sehingga dapat dikatakan bahwa pendapatan tahunan memberikan pengaruh yang nyata dan searah terhadap perubahan variabel dependen dalam model yang digunakan.
 - **Evaluasi Model (R-squared):**
-  - *Nilai R-squared...*
+  - *Nilai R-squared...* R-squared = 0,991 atau 99,1 %
   - *Interpretasi:* Berapa persen variasi dari variabel dependen yang dapat dijelaskan oleh model regresi Anda?
+  - Berdasarkan output model regresi yang ditunjukkan, nilai Adjusted R-squared sebesar 0,991, yang berarti bahwa sekitar 99,1% variasi dari variabel dependen (Biaya_Akuisisi_Pelanggan_Juta_IDR) dapat dijelaskan oleh variabel independen (Pendapatan_Tahunan_Miliar_IDR) dalam model regresi yang digunakan. Dengan kata lain, model ini memiliki kemampuan penjelasan yang sangat kuat, karena hampir seluruh perubahan pada variabel dependen dipengaruhi oleh variabel independen, sedangkan sisanya sekitar 0,9% dijelaskan oleh faktor lain di luar model.
 - **Visualisasi (Garis Regresi pada Scatter Plot):**
   - *Sematkan gambar plot dari folder /results...*
+    ![alt text](https://github.com/triadanyana-lgtm/staprob-project/blob/main/results/plot_regresi_Pendapatan_Tahunan_Miliar_IDR_vs_Biaya_Akuisisi_Pelanggan_Juta_IDR.png)
   - *Interpretasi:* Jelaskan bagaimana garis regresi merepresentasikan hubungan antara variabel.
+    Garis regresi pada grafik tersebut merepresentasikan hubungan linear positif antara Pendapatan_Tahunan_Miliar_IDR dan Biaya_Akuisisi_Pelanggan_Juta_IDR, di mana garis yang menanjak menunjukkan bahwa semakin besar pendapatan tahunan startup, semakin tinggi pula biaya akuisisi pelanggan yang dikeluarkan. Titik-titik data yang sebagian besar berada dekat dengan garis regresi menunjukkan bahwa model regresi mampu menjelaskan hubungan kedua variabel dengan sangat baik. Hal ini diperkuat oleh nilai Adjusted R-squared sebesar 0,991, yang berarti sekitar 99,1% variasi biaya akuisisi pelanggan dapat dijelaskan oleh pendapatan tahunan, sehingga garis regresi tersebut dapat dianggap sebagai representasi yang sangat kuat dari hubungan antar variabel dalam dataset.
 
 ---
 
