@@ -92,11 +92,11 @@ Di bagian ini, mahasiswa diharapkan untuk menyajikan dan menginterpretasikan has
 ### 5.4. Analisis Regresi
 - **Model Regresi:**
   - *Persamaan regresi: Y = b0 + b1*X*
-    1. Intercept/b0 = 1,3696
-    2. Slope/b1 = 1,0077*X*
-    3. Y = 1,3696 + 1,0077*X* dengan X = Pendapatan_Tahunan_Miliar_IDR
+    1. Intercept/b0 = 1,37
+    2. Slope/b1 = 1,01*X*
+    3. Y = 1,37 + 1,01*X* dengan X = Pendapatan_Tahunan_Miliar_IDR
   - *Interpretasi:* Jelaskan arti dari koefisien intercept (b0) dan slope (b1) dalam konteks data Anda.
-  - Berdasarkan hasil analisis regresi linear yang diperoleh, dapat disimpulkan bahwa terdapat hubungan positif antara pendapatan tahunan dan variabel dependen yang diteliti. Nilai intercept sebesar 1,3696 menunjukkan bahwa ketika pendapatan tahunan bernilai nol, variabel dependen masih memiliki nilai awal sebesar 1,3696. Sementara itu, koefisien regresi pendapatan tahunan sebesar 1,0077 mengindikasikan bahwa setiap kenaikan pendapatan tahunan sebesar 1 miliar rupiah akan diikuti oleh peningkatan nilai variabel dependen rata-rata sebesar 1,0077. Koefisien ini bernilai positif dan signifikan, sehingga dapat dikatakan bahwa pendapatan tahunan memberikan pengaruh yang nyata dan searah terhadap perubahan variabel dependen dalam model yang digunakan.
+  - Berdasarkan hasil analisis regresi linear yang diperoleh, dapat disimpulkan bahwa terdapat hubungan positif antara pendapatan tahunan dan variabel dependen yang diteliti. Nilai intercept sebesar 1,37 menunjukkan bahwa ketika pendapatan tahunan bernilai nol, variabel dependen masih memiliki nilai awal sebesar 1,37. Sementara itu, koefisien regresi pendapatan tahunan sebesar 1,01 mengindikasikan bahwa setiap kenaikan pendapatan tahunan sebesar 1 miliar rupiah akan diikuti oleh peningkatan nilai variabel dependen rata-rata sebesar 1,01. Koefisien ini bernilai positif dan signifikan, sehingga dapat dikatakan bahwa pendapatan tahunan memberikan pengaruh yang nyata dan searah terhadap perubahan variabel dependen dalam model yang digunakan.
 - **Evaluasi Model (R-squared):**
   - *Nilai R-squared* = 0,991 atau 99,1 %
   - *Interpretasi:* Berapa persen variasi dari variabel dependen yang dapat dijelaskan oleh model regresi Anda?
