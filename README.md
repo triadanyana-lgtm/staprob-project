@@ -69,23 +69,22 @@ Di bagian ini, mahasiswa diharapkan untuk menyajikan dan menginterpretasikan has
 
 ### 5.2. Uji Normalitas
 - **Hasil Uji Shapiro-Wilk:**
-  - *Nilai p-value = 1,497e-14*
-    p-value = 1,497e-14
+  - *Nilai p-value* = 1,497e-14
   - *Interpretasi:* Apakah data Anda terdistribusi normal berdasarkan hasil uji? Apa implikasinya?
   - Berdasarkan hasil uji normalitas Shapiro–Wilk pada variabel Pendapatan_Tahunan_Miliar_IDR, diperoleh nilai p-value sebesar 1,497 × 10⁻¹⁴, yang jauh lebih kecil dari tingkat signifikansi 0,05. Hal ini menunjukkan bahwa data tidak terdistribusi normal, sehingga hipotesis nol yang menyatakan data berdistribusi normal dapat ditolak. Implikasinya, analisis lanjutan yang mengasumsikan normalitas data, seperti uji parametrik tertentu, perlu dilakukan dengan hati-hati atau digantikan dengan metode alternatif, misalnya transformasi data atau penggunaan metode non-parametrik agar hasil analisis lebih valid.
 - **Plot Q-Q:**
-  - *Sematkan gambar plot dari folder /results...*
+  - *Gambar plot*
     ![alt text](https://github.com/triadanyana-lgtm/staprob-project/blob/main/results/qqplot_Pendapatan_Tahunan_Miliar_IDR.png)
   - *Interpretasi:* Apakah titik-titik data mengikuti garis lurus? Apa artinya?
   - Berdasarkan Q–Q plot Pendapatan_Tahunan_Miliar_IDR, titik-titik data tidak sepenuhnya mengikuti garis lurus, terutama pada bagian awal dan akhir grafik, di mana terlihat penyimpangan yang cukup jelas dari garis diagonal. Hal ini menunjukkan bahwa distribusi data tidak mengikuti distribusi normal, dengan adanya perbedaan pada ekor distribusi (tail) yang menandakan ketidaksimetrisan atau kemungkinan adanya nilai ekstrem. Artinya, asumsi normalitas pada data pendapatan tahunan tidak terpenuhi, sehingga hasil ini memperkuat temuan dari uji Shapiro–Wilk bahwa data tidak berdistribusi normal.
 
 ### 5.3. Analisis Korelasi
 - **Nilai Koefisien Korelasi:**
-  - *Nilai r...* nilai r = 0,996
+  - *Nilai r* = 0,996
   - *Interpretasi:* Seberapa kuat dan apa arah hubungan antara dua variabel yang Anda uji? (misalnya, korelasi positif kuat, negatif lemah, atau tidak ada korelasi).
   - Berdasarkan hasil uji korelasi yang dilakukan, diperoleh bahwa terdapat hubungan linear positif yang kuat dan signifikan secara statistik antara Pendapatan Tahunan (Miliar IDR) dan Biaya Akuisisi Pelanggan (Juta IDR) dengan nilai p-value < 0,05 dan korelasi 0,996. Hal ini menunjukkan bahwa peningkatan pendapatan tahunan perusahaan cenderung diikuti oleh peningkatan biaya yang dikeluarkan untuk mengakuisisi pelanggan.
 - **Visualisasi (Scatter Plot):**
-  - *Sematkan gambar plot dari folder /results...*
+  - *Gambar plot*
     ![alt text](https://github.com/triadanyana-lgtm/staprob-project/blob/main/results/scatterplot_Pendapatan_Tahunan_Miliar_IDR_vs_Biaya_Akuisisi_Pelanggan_Juta_IDR.png)
   - *Interpretasi:* Apakah pola pada scatter plot mendukung hasil koefisien korelasi?
   - Ya, pola pada scatter plot mendukung hasil koefisien korelasi. Titik-titik data membentuk pola naik dari kiri ke kanan dan mengikuti garis tren linear yang ditunjukkan oleh garis merah, sehingga menunjukkan adanya hubungan positif antara Pendapatan_Tahunan_Miliar_IDR dan Biaya_Akuisisi_Pelanggan_Juta_IDR. Artinya, semakin tinggi pendapatan tahunan startup, cenderung semakin tinggi pula biaya akuisisi pelanggan yang dikeluarkan. Pola yang relatif rapat di sekitar garis tren juga mengindikasikan bahwa hubungan antar kedua variabel tersebut cukup kuat dan konsisten, sehingga hasil visual ini sejalan dengan nilai koefisien korelasi yang menunjukkan hubungan positif.
@@ -99,11 +98,11 @@ Di bagian ini, mahasiswa diharapkan untuk menyajikan dan menginterpretasikan has
   - *Interpretasi:* Jelaskan arti dari koefisien intercept (b0) dan slope (b1) dalam konteks data Anda.
   - Berdasarkan hasil analisis regresi linear yang diperoleh, dapat disimpulkan bahwa terdapat hubungan positif antara pendapatan tahunan dan variabel dependen yang diteliti. Nilai intercept sebesar 1,3696 menunjukkan bahwa ketika pendapatan tahunan bernilai nol, variabel dependen masih memiliki nilai awal sebesar 1,3696. Sementara itu, koefisien regresi pendapatan tahunan sebesar 1,0077 mengindikasikan bahwa setiap kenaikan pendapatan tahunan sebesar 1 miliar rupiah akan diikuti oleh peningkatan nilai variabel dependen rata-rata sebesar 1,0077. Koefisien ini bernilai positif dan signifikan, sehingga dapat dikatakan bahwa pendapatan tahunan memberikan pengaruh yang nyata dan searah terhadap perubahan variabel dependen dalam model yang digunakan.
 - **Evaluasi Model (R-squared):**
-  - *Nilai R-squared...* R-squared = 0,991 atau 99,1 %
+  - *Nilai R-squared* = 0,991 atau 99,1 %
   - *Interpretasi:* Berapa persen variasi dari variabel dependen yang dapat dijelaskan oleh model regresi Anda?
   - Berdasarkan output model regresi yang ditunjukkan, nilai Adjusted R-squared sebesar 0,991, yang berarti bahwa sekitar 99,1% variasi dari variabel dependen (Biaya_Akuisisi_Pelanggan_Juta_IDR) dapat dijelaskan oleh variabel independen (Pendapatan_Tahunan_Miliar_IDR) dalam model regresi yang digunakan. Dengan kata lain, model ini memiliki kemampuan penjelasan yang sangat kuat, karena hampir seluruh perubahan pada variabel dependen dipengaruhi oleh variabel independen, sedangkan sisanya sekitar 0,9% dijelaskan oleh faktor lain di luar model.
 - **Visualisasi (Garis Regresi pada Scatter Plot):**
-  - *Sematkan gambar plot dari folder /results...*
+  - *Gambar plot*
     ![alt text](https://github.com/triadanyana-lgtm/staprob-project/blob/main/results/plot_regresi_Pendapatan_Tahunan_Miliar_IDR_vs_Biaya_Akuisisi_Pelanggan_Juta_IDR.png)
   - *Interpretasi:* Jelaskan bagaimana garis regresi merepresentasikan hubungan antara variabel.
   - Garis regresi pada grafik tersebut merepresentasikan hubungan linear positif antara Pendapatan_Tahunan_Miliar_IDR dan Biaya_Akuisisi_Pelanggan_Juta_IDR, di mana garis yang menanjak menunjukkan bahwa semakin besar pendapatan tahunan startup, semakin tinggi pula biaya akuisisi pelanggan yang dikeluarkan. Titik-titik data yang sebagian besar berada dekat dengan garis regresi menunjukkan bahwa model regresi mampu menjelaskan hubungan kedua variabel dengan sangat baik. Hal ini diperkuat oleh nilai Adjusted R-squared sebesar 0,991, yang berarti sekitar 99,1% variasi biaya akuisisi pelanggan dapat dijelaskan oleh pendapatan tahunan, sehingga garis regresi tersebut dapat dianggap sebagai representasi yang sangat kuat dari hubungan antar variabel dalam dataset.
@@ -113,4 +112,4 @@ Di bagian ini, mahasiswa diharapkan untuk menyajikan dan menginterpretasikan has
 ## 6. Kesimpulan
 
 Rangkum temuan utama dari analisis Anda dalam beberapa kalimat. Apa wawasan paling penting yang Anda peroleh?
-Saya menemukan bahwa data pendapatan tahunan startup SaaS memiliki sebaran yang cukup lebar dan tidak berdistribusi normal, dengan sebagian besar startup berada pada tingkat pendapatan rendah hingga menengah, sementara beberapa startup berpendapatan tinggi menaikkan nilai rata-rata. Analisis korelasi menunjukkan adanya hubungan linear positif yang sangat kuat antara pendapatan tahunan dan biaya akuisisi pelanggan. Hasil regresi juga memperkuat temuan tersebut, di mana pendapatan tahunan mampu menjelaskan sekitar 99% variasi biaya akuisisi pelanggan. Wawasan paling penting yang saya peroleh adalah bahwa semakin besar skala pendapatan startup, semakin besar pula biaya yang dikeluarkan untuk mengakuisisi pelanggan, dan hubungan ini sangat konsisten dalam dataset yang dianalisis.
+- Saya menemukan bahwa data pendapatan tahunan startup SaaS memiliki sebaran yang cukup lebar dan tidak berdistribusi normal, dengan sebagian besar startup berada pada tingkat pendapatan rendah hingga menengah, sementara beberapa startup berpendapatan tinggi menaikkan nilai rata-rata. Analisis korelasi menunjukkan adanya hubungan linear positif yang sangat kuat antara pendapatan tahunan dan biaya akuisisi pelanggan. Hasil regresi juga memperkuat temuan tersebut, di mana pendapatan tahunan mampu menjelaskan sekitar 99% variasi biaya akuisisi pelanggan. Wawasan paling penting yang saya peroleh adalah bahwa semakin besar skala pendapatan startup, semakin besar pula biaya yang dikeluarkan untuk mengakuisisi pelanggan, dan hubungan ini sangat konsisten dalam dataset yang dianalisis.
