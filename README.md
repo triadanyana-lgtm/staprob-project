@@ -62,14 +62,14 @@ Di bagian ini, mahasiswa diharapkan untuk menyajikan dan menginterpretasikan has
   - *Interpretasi:* Jelaskan seberapa menyebar data Anda berdasarkan nilai-nilai ini.
   - Pendapatan tahunan pada kolom Pendapatan_Tahunan_Miliar_IDR memiliki sebaran data yang cukup lebar. Hal ini dapat dilihat dari nilai standar deviasi sebesar 19,79 miliar rupiah, yang menunjukkan bahwa data pendapatan tiap startup cukup bervariasi dan tidak terkumpul di sekitar nilai rata-rata saja. Selain itu, range sebesar 65,89 miliar rupiah (dari 1,00 hingga 66,89 miliar rupiah) menandakan adanya perbedaan yang cukup jauh antara startup dengan pendapatan terendah dan tertinggi. Berdasarkan nilai kuartil, sebagian startup memiliki pendapatan di bawah 14,31 miliar rupiah, sementara sebagian lainnya mencapai lebih dari 49,04 miliar rupiah, sehingga dapat disimpulkan bahwa pendapatan tahunan startup SaaS dalam dataset ini menyebar cukup luas dan tidak merata.
 - **Visualisasi (Histogram/Boxplot):**
-  - *Sematkan gambar plot dari folder /results...*
+  - *Gambar plot*
     ![alt text](https://github.com/triadanyana-lgtm/staprob-project/blob/main/results/histogram_Pendapatan_Tahunan_Miliar_IDR.png)
   - *Interpretasi:* Jelaskan wawasan apa yang Anda dapatkan dari bentuk distribusi data.
   - Berdasarkan histogram Pendapatan_Tahunan_Miliar_IDR, dapat dilihat bahwa data tersebar cukup luas dari nilai rendah hingga tinggi, dengan sebagian besar pendapatan berada di kisaran menengah. Garis putus-putus merah yang menunjukkan nilai mean sekitar 31,88 miliar rupiah berada di tengah distribusi, yang menandakan bahwa rata-rata pendapatan cukup mewakili pusat data. Namun, masih terlihat adanya nilai pendapatan yang relatif rendah dan cukup tinggi, sehingga distribusi data tidak sepenuhnya terkonsentrasi pada satu titik. Bentuk distribusi ini menunjukkan bahwa dalam dataset terdapat perbedaan skala pendapatan antar startup, di mana beberapa startup memiliki pendapatan jauh lebih tinggi dibandingkan yang lain, sementara sebagian besar berada di sekitar nilai rata-rata.
 
 ### 5.2. Uji Normalitas
 - **Hasil Uji Shapiro-Wilk:**
-  - *Nilai p-value...*
+  - *Nilai p-value = 1,497e-14*
     p-value = 1,497e-14
   - *Interpretasi:* Apakah data Anda terdistribusi normal berdasarkan hasil uji? Apa implikasinya?
   - Berdasarkan hasil uji normalitas Shapiro–Wilk pada variabel Pendapatan_Tahunan_Miliar_IDR, diperoleh nilai p-value sebesar 1,497 × 10⁻¹⁴, yang jauh lebih kecil dari tingkat signifikansi 0,05. Hal ini menunjukkan bahwa data tidak terdistribusi normal, sehingga hipotesis nol yang menyatakan data berdistribusi normal dapat ditolak. Implikasinya, analisis lanjutan yang mengasumsikan normalitas data, seperti uji parametrik tertentu, perlu dilakukan dengan hati-hati atau digantikan dengan metode alternatif, misalnya transformasi data atau penggunaan metode non-parametrik agar hasil analisis lebih valid.
