@@ -10,10 +10,7 @@
 ---
 
 ## 2. Deskripsi Proyek
-
-Pada bagian ini, jelaskan secara singkat dataset yang Anda gunakan. Apa saja variabel di dalamnya? Apa tujuan dari analisis yang Anda lakukan?
-
-> Dataset yang digunakan adalah data data_startup_saas.csv yang berisi informasi tentang startup SaaS dan digunakan untuk analisis bisnis, seperti membandingkan pendapatan tahunan, biaya langganan, nilai pelanggan, serta tingkat churn berdasarkan kategori layanan. Variabel kunci dalam dataset ini meliputi Pendapatan_Tahunan_Miliar_IDR, Biaya_Langganan_Juta_IDR.Jadi disini saya hanya menggunakan 2 varaiable untuk melakukan proyek ini.
+> Dataset yang digunakan adalah data data_startup_saas.csv yang berisi informasi tentang startup SaaS dan digunakan untuk analisis bisnis, seperti membandingkan pendapatan tahunan, biaya langganan, nilai pelanggan, serta tingkat churn berdasarkan kategori layanan. Variabel kunci dalam dataset ini meliputi Pendapatan_Tahunan_Miliar_IDR, Biaya_Langganan_Juta_IDR, Nilai_Pelanggan_Juta_IDR, dan Tingkat_Churn_Persen.Jadi disini saya hanya menggunakan 2 varaiable untuk melakukan proyek ini yaitu Pendapatan_Tahunan_Miliar_IDR dan Biaya_Langganan_Juta_IDR.
 Tujuan dari proyek ini adalah untuk memahami karakteristik data melalui statistik deskriptif, menguji hubungan antara Pendapatan_Tahunan_Miliar_IDR dan Biaya_Langganan_Juta_IDR melalui analisis korelasi, serta memprediksi Biaya_Langganan_Juta_IDR sebagai variabel target menggunakan Pendapatan_Tahunan_Miliar_IDR sebagai variabel prediktor melalui analisis regresi.
 
 ---
