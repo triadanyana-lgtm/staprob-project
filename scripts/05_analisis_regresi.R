@@ -10,11 +10,7 @@ if (!exists("data_bersih")) {
   print("Menjalankan skrip 01_data_preparation.R...")
 }
 
-# Tentukan variabel dependen (Y) dan independen (X).
-# Y adalah variabel yang ingin Anda prediksi.
-# X adalah variabel yang Anda gunakan untuk memprediksi.
-
-var_dependen <- "Biaya_Akuisisi_Pelanggan_Juta_IDR"  
+var_dependen <- "Biaya_Akuisisi_Pelanggan_Juta_IDR"   
 var_independen <- "Pendapatan_Tahunan_Miliar_IDR"
 
 # Pastikan kolom yang dipilih ada di dalam data
@@ -32,6 +28,7 @@ model_regresi <- lm(as.formula(paste(var_dependen, "~", var_independen)), data =
 # -----------------------------------------------------------------
 # Langkah 2: Melihat dan Menginterpretasikan Hasil Model
 # -----------------------------------------------------------------
+# Fungsi summary() memberikan output yang sangat kaya informasi.
 summary_model <- summary(model_regresi)
 
 print("--- Ringkasan Model Regresi Linear ---")
@@ -68,7 +65,7 @@ print(paste("   - Artinya,", round(adj_r_squared * 100, 1), "% variasi pada", va
 # Garis ini adalah representasi visual dari persamaan model kita.
 
 plot_regresi <- ggplot(data_bersih, aes_string(x = var_independen, y = var_dependen)) +
-  geom_point(alpha = 0.6, color = "blue") +
+  geom_point(alpha = 0.6, color = "black") +
   geom_smooth(method = "lm", se = TRUE, color = "red") + # `se = TRUE` menampilkan confidence interval
   labs(
     title = "Garis Regresi Linear",
@@ -94,5 +91,3 @@ print(paste("Plot regresi disimpan di folder 'results'."))
 
 # Pesan akhir
 print("Analisis regresi selesai. Ini adalah dasar dari pemodelan prediktif. Jangan lupa tulis interpretasi Anda di README.md.")
-
-
