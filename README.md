@@ -44,7 +44,7 @@ Di bagian ini, mahasiswa diharapkan untuk menyajikan dan menginterpretasikan has
 ### 5.1. Statistik Deskriptif
 - **Ukuran Pemusatan (Mean, Median, Modus):**
   - *Tabel atau ringkasan...*
-  - Jadi pada analisa Deskriptif ini saya meggunakan satu variable utama yaitu Pendapatan_Tahunan_Miliar_IDR, hasil dari ukuran pemusatan yang saya lakukan sebagai berikut:
+  - Jadi pada analisa Deskriptif ini saya menggunakan satu variable utama yaitu Pendapatan_Tahunan_Miliar_IDR, hasil dari ukuran pemusatan yang saya lakukan sebagai berikut:
     1. Mean : 31,8831846153846
     2. Median : 31,303
     3. Modus : 1,87
